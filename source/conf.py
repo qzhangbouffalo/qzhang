@@ -15,9 +15,8 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 import os
-import sys 
-reload(sys)
-sys.setdefaultencoding('utf-8')
+import importlib,sys
+importlib.reload(sys)
 
 # -- Project information -----------------------------------------------------
 
